@@ -1,21 +1,17 @@
-{
-  "Empleados": [
-    {
-      "nombre": "Emanuel",
-      "edad": 21,
-      "id": 0
-    },
-
-    {
-      "nombre": "Jesus",
-      "edad": 23,
-      "id": 1
-    },
-
-    {
-      "nombre": "Mario",
-      "edad": 26,
-      "id": 2
-    }
-  ]
-}
+[
+  {
+    "nombre": "Emanuel",
+    "edad": 21,
+    "id": 0
+  },
+  {
+    "nombre": "Jesus",
+    "edad": 23,
+    "id": 1
+  },
+  {
+    "nombre": "Mario",
+    "edad": 26,
+    "id": 2
+  }
+]
