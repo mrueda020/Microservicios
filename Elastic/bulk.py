@@ -1,11 +1,12 @@
 
+from flask import Flask, jsonify
 from elasticsearch import Elasticsearch, helpers
 import requests
 import json
 
 
-elastic = Elasticsearch(
-    'https://da5184f9f5074144ac0791971bbee844.eastus2.azure.elastic-cloud.com:9243/login?next=%2Fapp%2Fhome#/')
+elastic = Elasticsearch(cloud_id="elastic-enterprise-search-deployment:ZWFzdHVzMi5henVyZS5lbGFzdGljLWNsb3VkLmNvbTo5MjQzJDhhMjQzYTFlNzY4ZDQxNmFiZmZkYmQ5OGYzYjQxNDZlJGRhNTE4NGY5ZjUwNzQxNDRhYzA3OTE5NzFiYmVlODQ0",
+                        http_auth=("elastic", "WnqbZyzUf0pZK4UoTjz1jDul"),)
 
 
 Archivo = "Employee.json"
